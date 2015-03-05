@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jamie Tsao</title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/viewportchecker.js"></script>
+  <script src="js/pushy.min.js"></script>
+  <script src="js/modernizr.js"></script> <!-- JavaScript animation -->
+
+  <link rel="shortcut icon" href="image/jt.png">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jamie Tsao's portfolio">
+  <meta name="keywords" content="jamie, tsao, web, web development, design, php" />
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/flaticon_2.css">
+</head>
+
+<body>
+  <section class="navigation">
+    <a id="navicon" class="animated fadeInLeft closed menu-btn"></a>
+
+    <div id="" class="nav pushy pushy-left">
+      <ul>
+        <li>
+          <a class="introduction" href="#">
+            <i class="fa fa-angle-up"></i>Back to top
+          </a>
+        </li>
+
+        <li>
+          <a class="about" href="#">
+            <i class="fa fa-user"></i>About
+          </a>
+        </li>
+
+        <li>
+          <a class="work" href="#">
+            <i class="fa fa-suitcase"></i>Projects
+          </a>
+        </li>
+
+        <li>
+          <a class="contact" href="#">
+            <i class="fa fa-paper-plane"></i>Contact
+          </a>
+        </li>
+        <li>
+            <a class=
+        </li>
+      </ul>
+    </section>
+
+    <div class="site-overlay"></div>
+    <section id="introduction">
+      <div class="small-nav nav">
+        <ul>
+          <li>
+            <a class="introduction" href="#introduction">Intro</a>
+          </li>
+          <li>
+            <a class="about" href="#about">About</a>
+          </li>
+          <li>
+            <a class="interests" href="#interests">Interests</a>
+          </li>
+          <li>
+            <a class="work" href="#work">Work</a>
+          </li>
+          <li>
+            <a class="contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="cover">
+        <h1 class="animated fadeInUp">Jamie Tsao</h1>
+        <h2 class="animated fadeInUp">Trying to make that dough flowing you feel me?</b></span></h2>
+      </div>
+      <div class="chevron animated fadeInUp">
+        <div></div>
+        <b><i class="flaticon-expand22"></i></b>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="col-md-12 center">
+          <img class="profile-pic" src="image/jamie_profile.jpg">
+
+          <h1>About Me</h1>
+
+          <div class="dash animated fadeIn"></div>
+
+          <p>
+            <br>I am a third year Information Systems student</br> 
+            <br>at <a href="https://goo.gl/maps/dvaqe" target="_blank"> University of Maryland, Baltimore County</a>.</br>
+            <br>I have a strong passion for web development.</br>
+            </p>
+          </div>
+        </section>
+
+          <section id="work">
+            <div class="container">
+              <h1>Projects</h1>
+
+              <div class="left col-md-8">
+
+                <div class="item item-1">
+                  <h3><a href="http://userpages.umbc.edu/~tsjamie1/CMSC331/UTA_Application/Index.php" target="_blank">On-Campus Job Application</a></h3>
+                  <p>A web form which accepts applicant information to be viewed and processed by administrators looking to hire TAs, graders, and lab assistant. The input information is sent to a normalized database for storage.  Instructors will then able to look up application information, sort by GPA, courses taken, or amount of credits accumulated. The administrator forms include deletion and editing functionality which are updated immediately after a confirmation prompt.</p>
+                </div>
+
+                <div class="item item-2">
+                  <h3><a href="">Weather API</a></h3>
+                  <p>A simple API that checks current weather for a certain location user enters.</p>
+                </div>
+              </div>
+
+              <div class="right col-md-4">
+                <h2>Skills</h2>
+                <div class="bars">
+                  <div class="bar">HTML / CSS</div>
+                  <div class="bar">SASS / Compass</div>
+                  <div class="bar">PHP</div>
+                  <div class="bar">JavaScript / JQUERY</div>
+                  <div class="bar">JSON</div>
+                  <div class="bar">Ajax</div>
+                  <div class="bar">Wordpress</div>
+                  <div class="bar">Drupal</div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+          </section>
+
+          <section id="contact">
+            <div class="container">
+              <div class="contact-icon"><i class="flaticon-user3"></i></div>
+              <h1>Are you interested ?</h1>
+
+               <form action="mail.php" method="post">
+                <div class="input">
+                 <ul>
+                   <br><input type="text" name="sender" id="sender" placeholder="Your Name" />
+                   <br><input type="text" name="sender_email" id="sender_email" placeholder="Your Email">
+                   <br><textarea name="message" id="message" cols="45" rows="15" placeholder="Please type your message here"></textarea>
+                   <br><input type="submit" name="sendMessage" id="sendMessage" value="Send" />
+                 </ul>
+               </div>
+               </form>
+            </div>
+          </section>
+
+          <section id="footer">
+            <div class="container">
+              <h3>Contact Me?</h3>
+
+              <ul>
+                <li class="email">
+                  <a href="mailto:tsjamie1@umbc.edu">
+                    <i class="flaticon-email20"></i>
+                    <p>   email</p>
+                  </a>
+                </li>
+              <li class = "github">
+                <a href="https://github.com/jtaso" target="_blank">
+                  <i class="flaticon-github10"></i>
+                  <p>   GitHub</p>
+                </a>
+              </li>
+              <li class = "linkedin">
+                <a href="https://www.linkedin.com/in/tsaojamie/en" target="_blank">
+                  <i class="flaticon-linkedin12"></i>
+                  <p>   LinkedIn</p>
+                </a>
+              </li>
+            </ul>
+
+            <div class="license">
+              2015 © Jamie Tsao
+            </div>
+          </div>
+        </section>
+  </body>
+</html>
+  
